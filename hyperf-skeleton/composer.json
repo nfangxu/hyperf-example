@@ -61,6 +61,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": [],
+    "config": {
+        "sort-packages": true
+    },
     "scripts": {
         "post-root-package-install": [
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
